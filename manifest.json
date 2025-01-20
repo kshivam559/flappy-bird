@@ -11,7 +11,7 @@
 "orientation": "portrait",
 "icons": [
     {
-        "src": "image/flappybird.png",
+        "src": "image/flappy-bird-512.webp",
         "sizes": "512x512",
         "type": "image/png",
         "purpose": "maskable"
