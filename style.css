@@ -1,0 +1,20 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+}
+
+canvas {
+  background: url("/image/flappyback.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  max-width: 390px;
+  width: 100%;
+}
