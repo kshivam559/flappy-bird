@@ -160,14 +160,14 @@ function add_all_my_pipes() {
   add_pipe(3000, 100, 80);
   add_pipe(3300, 250, 80);
   add_pipe(3600, 50, 60);
-  var finish_line = new MySprite("/image/flappyend.png");
+  var finish_line = new MySprite("image/flappyend.png");
   finish_line.x = 3900;
   finish_line.velocity_x = pipe_speed;
   pipes.push(finish_line);
 }
 var pipe_piece = new Image();
 pipe_piece.onload = add_all_my_pipes;
-pipe_piece.src = "/image/flappypipe.png";
+pipe_piece.src = "image/flappypipe.png";
 function Do_a_Frame() {
   ctx.clearRect(0, 0, myCanvas.width, myCanvas.height);
   bird.Do_Frame_Things();
@@ -194,9 +194,9 @@ function Do_a_Frame() {
   }
 }
 var bottom_bar = new Image();
-bottom_bar.src = "/image/flappybottom.png";
+bottom_bar.src = "image/flappybottom.png";
 
-var bird = new MySprite("/image/flappybird.png");
+var bird = new MySprite("image/flappybird.png");
 bird.x = myCanvas.width / 3;
 bird.y = myCanvas.height / 2;
 

@@ -11,7 +11,7 @@ body {
 }
 
 canvas {
-  background: url("/image/flappyback.png");
+  background: url("image/flappyback.png");
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
